@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif; 
+    } 
+
+    body {
+        min-height: 100vh;
+        background: url('pxfuel copy.jpg') no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: fixed; 
+    }
+    header{
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        position: relative;
+    }
+    .mark{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0px;
+        font-size:10rem; 
+        margin-left: 52rem;
+    }
+    .bxs-bookmark{
+        color: #2C3E50;
+        font-size: 10rem;
+        position: absolute;
+        right: 2rem;
+        top: -1.5rem;
+        
+        }
+        
+    .mark button {
+        width: 150px;
+        height: 60px;
+        border-radius: 100px;
+        font-size: 1.6rem;
+        border: solid 4px #2C3E50;
+        color: #2C3E50;
+        font-weight: 600;
+        margin: 30px;
+
+    }
+    .back{
+        margin-left: 5rem;
+        
+    }
+    .mark .cowork{
+        width: 150px;
+        height: 60px;
+        background-color: #2C3E50;
+        border-radius: 16px;
+        font-size: 1.6rem;
+        color: #ffffff;
+        font-weight: 600;
+    }
+    .bx-cog{
+        color: #2C3E50;
+        font-size: 60px;
+        padding-left: 3rem ;
+    }
+    .bxs-share{
+        color: #ffffff;
+        font-size: 60px;
+        background-color: #2C3E50;
+        width: 65px;
+        height: 60px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        padding: 1px;
+    }
+    .grid-container{
+        display:grid;
+        padding:1rem 5rem;
+        grid-template-columns: 680px 50px 680px;
+        margin: 0 11rem;
+    }
+    .grid-container .page-1{
+        background-color: #ffffff;
+        border: solid 9px #2C3E50;
+        border-left: solid 13px #2C3E50;
+        position: relative;
+         width: 40rem;
+        height: 46rem;
+        border-radius: 9px;
+    }
+    .grid-container .page-2{
+        position: relative;
+        background-color: #ffffff;
+        border: solid 9px #2C3E50;
+        border-right: solid 13px #2C3E50;
+        border-radius: 9px;
+
+         width: 40rem;
+        height: 46rem;
+    }
+    .grid-container .page-12{
+        background-color: #ffffff;
+        position: absolute;
+         width: 38rem;
+        height: 45rem;
+        border-radius: 9px;
+        left: 10px;
+        box-shadow: -4px 0px 4px black;
+    }
+    .grid-container .page-22{
+        background-color: #ffffff;
+        
+        position: absolute;
+        
+        border-radius: 9px;
+        box-shadow: 4px 0px 4px black;
+         width: 38rem;
+        height: 45rem;
+    }
